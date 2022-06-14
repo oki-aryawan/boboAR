@@ -12,7 +12,7 @@ void setup() {
 
 }
 
-void loop() {
+void capacitive() {
   long start = millis();
   long dada_kanan = cs_4_2.capacitiveSensor(30);
 
@@ -27,4 +27,11 @@ void loop() {
   } else{
     digitalWrite(led, LOW);
   }
+}
+
+void loop(){
+
+
+
+
 }
